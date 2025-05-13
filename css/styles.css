@@ -6,6 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-image: url("aacme.png");
 }
 
 .container {
@@ -23,8 +24,9 @@ body {
 }
 
 .logo img {
-    max-width: 150px; /* Ajusta el tamaño del logo */
+    max-width: ; /* Ajusta el tamaño del logo */
     height: auto;
+    
 }
 
 h1 {
@@ -100,4 +102,45 @@ h1 {
 
 .links a:hover {
     text-decoration: underline;
+}
+
+
+
+
+
+
+
+.registro-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registro-form .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.registro-form .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.registro-form .input-group input[type="text"],
+.registro-form .input-group input[type="email"],
+.registro-form .input-group input[type="tel"],
+.registro-form .input-group select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.registro-form .input-group select {
+    appearance: none; /* Para quitar los estilos por defecto del select */
+    background-image: url('img/arrow_down.png'); /* O un SVG en base64 */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
 }
