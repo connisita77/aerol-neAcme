@@ -1,1 +1,165 @@
 @import url(Rolisand.css);
+
+
+body {
+    font-family: "Rolisand", sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #f5c4ed;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Adaptable al ancho de la pantalla */
+    max-width: 400px; /* Ancho máximo para pantallas grandes */
+    text-align: center;
+    border: 5px solid #dd42d5;
+    ;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 250px; /* Ajusta el tamaño del logo */
+    height: 250px;
+    
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-family: "Rolisand";
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+.nombre_completo{
+    color: black;
+
+}
+
+.input-group input[type="email"],
+.input-group input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #dd42d5;
+    border-radius: 40px;
+    box-sizing: border-box;
+    font-family: "Rolisand";
+
+}
+.recordar{
+    display: block;
+    font-size: 15px;
+  }
+
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.remember-me input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.button {
+    background-color: violet; /* Un azul similar al de la imagen */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    border-radius: 200px;
+}
+
+.button.primary {
+    width: 100%;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    color:  black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.registro-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registro-form .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.registro-form .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-family: "Rolisand";
+
+}
+
+.registro-form .input-group input[type="email"],
+.registro-form .input-group select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #dd42d5;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    border-radius: 20px
+    
+}
+
+.registro-form .input-group select {
+    appearance: none; /* Para quitar los estilos por defecto del select */
+    background-image: url('img/arrow_down.png'); /* O un SVG en base64 */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+}
