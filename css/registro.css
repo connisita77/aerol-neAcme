@@ -9,7 +9,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("aacme.png");
 }
 
 .container {
@@ -55,6 +54,10 @@ h1 {
     margin-bottom: 5px;
     color: #555;
 }
+.nombre_completo{
+    color: black;
+
+}
 
 .input-group input[type="email"],
 .input-group input[type="password"] {
@@ -79,7 +82,7 @@ h1 {
 }
 
 .button {
-    background-color: violet; /* Un azul similar al de la imagen */
+    background-color: #2196F3; /* Un azul similar al de la imagen */
     color: white;
     padding: 12px 20px;
     border: none;
@@ -95,7 +98,7 @@ h1 {
 }
 
 .button:hover {
-    background-color: palevioletred;
+    background-color: black;
 }
 
 .links {
@@ -132,7 +135,9 @@ h1 {
 .registro-form .input-group label {
     display: block;
     margin-bottom: 5px;
-    color: #ff0000;
+    color: black;
+    font-family: "Rolisand";
+
 }
 
 .registro-form .input-group input[type="text"],
@@ -141,9 +146,11 @@ h1 {
 .registro-form .input-group select {
     width: calc(100% - 20px);
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #dd42d5;
     border-radius: 4px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    border-radius: 20px
+    
 }
 
 .registro-form .input-group select {
