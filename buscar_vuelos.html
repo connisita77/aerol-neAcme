@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda de Vuelos - ACME AIR</title>
+    <link rel="stylesheet" href="css/buscar-vuelo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="airland.png" alt="Logo de ACME AIR" class="logo">
+            <div class="user-info">
+                <div class="user-icon">👤</div>
+                <div class="user-details">
+                    <span class="user-name">John Doe</span>
+                    <a href="#" class="logout-link">Cerrar Sesión</a>
+                </div>
+            </div>
+        </div>
+        <h1 class="form-title">Búsqueda de Vuelos</h1>
+        <div class="one-way-checkbox">
+            <input type="checkbox" id="solo-ida" name="solo-ida">
+            <label for="solo-ida">Solo ida</label>
+        </div>
+        <form class="search-form">
+            <div class="input-group">
+                <input type="text" id="origen" name="origen" placeholder="Origen">
+            </div>
+            <div class="input-group">
+                <input type="text" id="destino" name="destino" placeholder="Destino">
+            </div>
+            <div class="input-group">
+                <input type="date" id="fecha-salida" name="fecha-salida" placeholder="Fecha de salida">
+            </div>
+            <div class="input-group">
+                <input type="date" id="fecha-regreso" name="fecha-regreso" placeholder="Fecha de regreso">
+            </div>
+            <button type="submit" class="button primary">BUSCAR</button>
+        </form>
+    </div>
+</body>
+</html>
