@@ -1,0 +1,40 @@
+/* Estilo general del cuerpo */
+body {
+  background-color: #fcbefc;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Contenedor principal del formulario */
+.container {
+  background-color: #f9bdfd;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  padding: 30px 20px;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo */
+.logo {
+  width: 130px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Título */
+h2 {
+  color: #2f2f2f;
+  margin-bottom: 20px;
+}
+
+/* Etiquetas e inputs */
+label {
+  display: block;
+  text-align:

@@ -2,33 +2,27 @@
 
 
 body {
-    font-family: "Rolisand", sans-serif;
-    margin: 0;
+    margin: auto;
+    padding: 0px;
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 
 }
-
-{
-    box-sizing: border-box;
-    width: 100%;
-}
-
 
 .container {
     background-color: #f5c4ed;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 170px 45px;
+    border-radius: 0px;
+    box-shadow: 0 2px px rgba(0, 0, 0, 0.1);
     width: 90%; /* Adaptable al ancho de la pantalla */
     max-width: 400px; /* Ancho máximo para pantallas grandes */
     text-align: center;
     border: 5px solid #dd42d5;
     ;
 }
+
 
 .logo {
     margin-bottom: 20px;
@@ -98,11 +92,9 @@ h1 {
     color: white;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
-    border radius: 4px;
     border-radius: 200px;
 }
 
