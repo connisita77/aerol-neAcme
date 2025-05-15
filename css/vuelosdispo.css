@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* vuelosdispo.css */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     margin: 0;
+    background-color: #f5f1f1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,118 +12,167 @@ body {
 
 .container {
     background-color: #f5c4ed;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 150px 45px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 90%;
-    max-width: 450px;
-    border: 5px solid #dd42d5;;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    max-width: 400px;
+    margin: 20px;
 }
 
 .logo {
-    max-width: 150px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    max-width: 200px;
     height: auto;
 }
 
 .user-info {
     display: flex;
     align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
 }
 
-.user-icon {
-    font-size: 24px;
-    margin-right: 10px;
-    color: black;
-    border: 2px solid black;
+.user-avatar {
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    padding: 8px;
+    background-color: #ddd;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #aaa;
+    font-size: 1.2em;
 }
 
 .user-details {
-    text-align: right;
+    flex-grow: 1;
+    text-align: left;
 }
 
-.user-name {
-    font-weight: bold;
-    color: black;
+.user-details strong {
     display: block;
+    font-size: 1.1em;
+    color: #333;
 }
 
-.logout-link {
-    color: black;
+.user-details a {
+    color: #007bff;
     text-decoration: none;
     font-size: 0.9em;
 }
 
-.logout-link:hover {
+.user-details a:hover {
     text-decoration: underline;
 }
 
-.form-title {
-    color: black;
-    margin-bottom: 25px;
-    text-align: center;
-    font-size: 1.8em;
+.vuelos-disponibles {
+    padding: 0 15px;
 }
 
-.one-way-checkbox {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+.login-container {
+    text-align: left;
 }
 
-.one-way-checkbox input[type="checkbox"] {
-    margin-right: 10px;
-    width: 18px;
-    height: 18px;
-}
-
-.one-way-checkbox label {
-    color: black;
-}
-
-.search-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.input-group {
+.login-title2 {
+    color: #333;
     margin-bottom: 15px;
+    font-size: 1.5em;
+    text-align: center;
 }
 
-.input-group input[type="text"],
-.input-group input[type="date"] {
-    width: calc(100% - 20px);
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-sizing: border-box;
+.info-general {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #555;
+}
+
+.info-general p {
+    margin: 5px 0;
+}
+
+.vuelo {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.vuelo img {
+    width: 30px;
+    height: auto;
+    justify-self: center;
+}
+
+.detalles {
+    text-align: left;
+}
+
+.detalles span {
+    display: block;
+    font-weight: bold;
+    color: #333;
     font-size: 1em;
 }
 
-.button {
-    background-color: plum; /* Un azul similar */
-    color: white;
-    height: 50px;
-    width: 300px;
+.detalles small {
+    color: #777;
+    font-size: 0.85em;
+}
+
+.info {
+    text-align: right;
+}
+
+.info span {
+    display: block;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.info strong {
+    font-size: 1.2em;
+    color: #28a745; /* Or a similar green */
+}
+
+.pesos-colombianos {
+    font-weight: normal;
+    color: #777;
+    margin-right: 2px;
+    font-size: 0.9em;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
-    font-size: 1.1em;
+    font-size: 1em;
     transition: background-color 0.3s ease;
 }
 
-.button.primary {
-    background-color: violet; /* Un azul más intenso */
+.btn:hover {
+    background-color: #0056b3;
 }
 
-.button:hover {
-    background-color: black;
+.btn-primary {
+    /* Inherits styles from .btn */
 }
